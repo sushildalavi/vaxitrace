@@ -75,7 +75,8 @@ other username goes to `admin.php`.
 
 Security:
 
-- `admin.php` has no login check, and anyone who registers a username starting with a letter is sent to it.
+- `admin.php`, `registration.php` and `graphs.php` have no login check, and anyone who registers a username that does
+  not start with a digit is sent to `admin.php`.
 - `registration.php` and `admin.php` build SQL by inserting form values into the query string (SQL injection).
 - `login.php` and `register.php` echo submitted values back without escaping (cross-site scripting).
 - Aadhaar numbers and other personal data are stored in plain text, with no CSRF protection.
@@ -101,4 +102,4 @@ The FAQ page uses the FAQ template by [CodyHouse](https://codyhouse.co/), which 
 
 ## License
 
-An earlier version of this README stated that the project is MIT licensed. No licence file is included.
+The project has been described as MIT licensed, but no licence file is included.
