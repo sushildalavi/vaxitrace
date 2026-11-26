@@ -137,7 +137,7 @@ error_reporting(0);
 <div class="dropdown">
   <button class="dropbtn">Dropdown</button>
   <div class="dropdown-content">
-    <a href="mumbaii.html">Mumbai</a>
+    <a href="mumbai.html">Mumbai</a>
     <a href="pune.html">Pune</a>
     <a href="nagpur.html">Nagpur</a>
   </div>

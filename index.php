@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>Task1</title>
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
 <style>
  #background-image{
         background-image:url("https://news.utexas.edu/wp-content/uploads/2020/08/vaccination-1400px.jpg");

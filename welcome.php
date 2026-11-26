@@ -18,10 +18,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-<link href="recent-news-boxes.css" rel="stylesheet">
+<link href="assets/css/recentNewsBoxes.css" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link rel="stylesheet" type="text/css" href="welcome.css">
+<link rel="stylesheet" type="text/css" href="assets/css/welcome.css">
 <span class="glyphicon glyphicon-name"></span>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -87,9 +87,9 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <header>
    <div class="topnav">
             <a href="welcome.php">COVtracker</a>
-            <a href="aboutUS.html">About Us</a>
+            <a href="aboutUs.html">About Us</a>
   <a href="graphs.php">Graphs</a>
-  <a href="faqq.html">FAQ</a>
+  <a href="faq.html">FAQ</a>
   </div>
         <!--<div class="glif">-->
                 <a href ="#"><i class="fa fa-commenting"></i></a>
