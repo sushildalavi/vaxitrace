@@ -1,4 +1,4 @@
-# VaxiTrace
+# vaxitrace
 
 A student web project for COVID-19 vaccination registration in Mumbai, Pune and Nagpur, written in plain PHP with a
 MySQL database. The pages call the application COVtracker.
